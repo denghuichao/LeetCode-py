@@ -52,6 +52,21 @@ class Solution(object):
         return res
 
 
+    def widthOfBinaryTree_dsf(self, root):
+        def dfs(node, depth = 0, pos = 0):
+            if node:
+                yield depth, pos
+                yield from dfs(node.left, depth + 1, pos * 2)
+                yield from dfs(node.right, depth + 1, pos * 2 + 1)
+
+        left, right = {}, {}
+        res = 0
+        for depth, pos in dfs(root):
+            left[depth] = min(left.get(depth, pos), pos)
+            right[depth] = max(right.get(depth, pos), pos)
+            ans = max(ans, right[depth] - left[depth] + 1)
+        return res
+
 root = TreeNode(1)
 root.left = TreeNode(3)
 root.left.left = TreeNode(5)
