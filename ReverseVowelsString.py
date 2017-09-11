@@ -15,5 +15,5 @@ class Solution(object):
 
 
 s = Solution()
-print s.reverseVowels('leetcode')
+print (s.reverseVowels('leetcode'))
 

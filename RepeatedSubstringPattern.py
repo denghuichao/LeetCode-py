@@ -13,4 +13,4 @@ class Solution(object):
         return False
 
 s = Solution()
-print s.repeatedSubstringPattern('abcabcabcabc')
+print (s.repeatedSubstringPattern('abcabcabcabc'))

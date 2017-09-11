@@ -17,4 +17,4 @@ class Solution(object):
             else 0
 
 s = Solution()
-print s.reverse(2147480007)
+print (s.reverse(2147480007))

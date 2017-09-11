@@ -9,4 +9,4 @@ class Solution(object):
 
 
 s = Solution()
-print s.fizzBuzz(1)
+print (s.fizzBuzz(1))

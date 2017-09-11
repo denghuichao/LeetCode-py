@@ -16,4 +16,4 @@ class Solution(object):
         return ''.join(''.join(line) for line in lines)
 
 s = Solution()
-print s.convert("PAYPALISHIRING", 2)
+print(s.convert("PAYPALISHIRING", 2))

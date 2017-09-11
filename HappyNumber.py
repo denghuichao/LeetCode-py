@@ -14,4 +14,4 @@ class Solution(object):
         return True
 
 s = Solution()
-print s.isHappy(20)
+print (s.isHappy(20))

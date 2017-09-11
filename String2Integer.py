@@ -20,4 +20,4 @@ class Solution(object):
         return sign * res if res > -2147483648 or res == -2147483648 and sign == 1 else 2147483647
 
 s = Solution()
-print s.myAtoi(" b11228552307")
+print (s.myAtoi(" b11228552307"))

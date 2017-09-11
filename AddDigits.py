@@ -14,4 +14,4 @@ def addDigits(num):
     return num
 
 
-print addDigits(10)
+print (addDigits(10))

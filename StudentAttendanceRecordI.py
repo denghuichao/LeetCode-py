@@ -9,4 +9,4 @@ class Solution(object):
         return s.upper().count('A') <= 1 and not pattern.match(s)
 
 s = Solution()
-print s.checkRecord("PPALLLP")
+print (s.checkRecord("PPALLLP"))

@@ -40,6 +40,6 @@ class Solution(object):
             else 'Neither'
 
 s = Solution()
-print s.validIPAddress("12.12.12.12.12")
-print s.validIPAddress("2001:0db8:85a3:0000:0:8A2E:0370:733a")
-print s.validIPAddress("256.256.256.256")
+print (s.validIPAddress("12.12.12.12.12"))
+print (s.validIPAddress("2001:0db8:85a3:0000:0:8A2E:0370:733a"))
+print (s.validIPAddress("256.256.256.256"))

@@ -9,4 +9,4 @@ class Solution(object):
 
 
 s = Solution()
-print s.isAnagram("anagram", 'nagara')
+print (s.isAnagram("anagram", 'nagara'))
