@@ -12,7 +12,7 @@ class Solution(object):
         """
         if not s or not p:
             return []
-        
+
         res = []
         c_count = [0 for i in range(256)]
         for c in p:
